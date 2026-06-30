@@ -1,0 +1,3 @@
+import Link from 'next/link';
+const services=['Fiber Installation & Drops','Structured Cabling','Low Voltage Wiring','Commercial Network Build-Outs','Rack & Cable Management','Troubleshooting & Maintenance'];
+export default function Services(){return <main><section className="section"><div className="container"><Link href="/">← Home</Link><div className="head"><h2>Services</h2><p>Professional infrastructure services for homes, offices, contractors and telecom partners.</p></div><div className="grid3">{services.map(s=><div className="card" key={s}><h3>{s}</h3><p>Clean installation, clear communication, field-ready crews and professional documentation.</p><a className="btn orange" href="/contact">Get Quote</a></div>)}</div></div></section></main>}
