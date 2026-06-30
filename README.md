@@ -2,13 +2,11 @@
 
 Professional Next.js website for ProfiCable LLC.
 
-## Run locally
-
-```bash
-npm install
-npm run dev
-```
-
 ## Deploy
+Upload all files to GitHub, then import the repository into Vercel and click Deploy.
 
-Upload this project to GitHub, then import the repository into Vercel and click Deploy.
+## Buttons
+- Call Now: phone link
+- Text Us: SMS link
+- Get Quote: contact form
+- Apply Now: careers form
